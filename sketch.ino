@@ -20,6 +20,7 @@ void setup() {
 
   // Initiates INPUTS
   pinMode(buttonPin, INPUT); // Initialize the pushbutton pin as an input
+  pinMode(ldrPin, INPUT);
 
   digitalWrite(led_yellow, LOW);
   digitalWrite(led_green, LOW);
