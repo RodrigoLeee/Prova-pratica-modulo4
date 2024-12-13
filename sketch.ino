@@ -94,7 +94,7 @@ void loop() {
     digitalWrite(led_red, HIGH);
     buttonState = digitalRead(buttonPin);
     if (buttonState == HIGH) {
-      delay(1000)
+      delay(1000);
     }
     else {
       delay(5000);
